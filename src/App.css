@@ -1,0 +1,69 @@
+.image-container
+{
+  background-image: url('./Components/Images/Property-Insurance.jpg');
+  background-size: cover; 
+  background-position: center;
+  opacity: 0.9;
+  
+}
+.bottom-img
+{
+  background-image: url('./Components/Images/Insurance-PNG-Images.png');
+  /* background-size: cover; 
+  background-position: center; */
+  opacity: 0.9;
+}
+.mbs
+{
+  margin-bottom:260px;
+}
+.bb
+{
+  box-shadow: 0 0 10px blue;
+  
+}
+.size
+{
+  width: 25px;
+  height: 25px;
+}
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-2
+{
+  background-color: #bae6fd;
+}
+.securitylen
+{
+  margin-left: 300px;
+}
+.mbs-2
+{
+  margin-bottom: 500px;
+}
+.primum-box
+{
+  width: 200px;
+}
+.popup {
+  position: fixed;
+  /* top: 50%;
+  left: 50%;
+  height: 200px;
+  width: 300px; */
+  transform: translate(-10%, -60%);
+  background-color: lightgrey;
+  /* border: 1px solid #ccc;  */
+  /* padding: 20px; */
+  box-shadow: 6px 6px 12px 6px;
+  /* border-radius: 10px; */
+}
+.primium-bg
+{
+  background-color: lightgrey;
+  box-shadow: 6px 6px 12px 6px;
+  margin-left:330px;
+}
