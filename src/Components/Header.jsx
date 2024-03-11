@@ -6,12 +6,11 @@ function Header() {
     <>
    <nav className='navbar navbar-dark navbar-expand-lg bg-dark'>
         <div className='navbar-brand d-inline-block'>
-        <h3 className='ms-5'><img src={logo} alt="Logo of the company" className='size'/>
-
-            {'  '}{' '}RS Insurance Company</h3>
+        <h3 className='ms-4'><img src={logo} alt="Logo of the company" className='size'/>
+         {" "}RS Insurance Company</h3>
         </div>
         <div className='ms-auto'> 
-            <button className='btn btn-primary me-4 ' >Admin</button>
+            <button className='btn btn-primary me-4'>Admin</button>
         </div>
 
    </nav>

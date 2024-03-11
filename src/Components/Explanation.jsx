@@ -1,11 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
+// import Footer from "./Footer";
+// import Popup from 'reactjs-popup';
+// import 'reactjs-popup/dist/index.css';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+
+
+
 
 
 function Explanation() {
+    // const notify = () => toast('Notification message!', { position: "top-center" });
+    // const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+   
+
+
 
   return (
     <>
-    <div className='container mt-2'>
+    <div className='container mt-2 justify'>
       <h4 className='text-dark fw-bold'>About Property Insurance:</h4>
         <div className=' text-justify '>
             <ul>
@@ -46,17 +64,9 @@ function Explanation() {
                     <li>Designed for tenants, renters insurance covers the policyholder's personal property and liability within a rented property.</li>
                 </ul>
             </div>
-            
-       
     </div>
 
-
-
-
-
-            
-
-
+    
  </>
   );
 }
